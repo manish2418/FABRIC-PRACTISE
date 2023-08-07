@@ -27,7 +27,7 @@ function startAddingLine(o) {
   canvas.requestRenderAll();
 }
 
-function startDrawingLine() {
+function startDrawingLine(o) {
   if (mouseDown === true) {
     let pointer = canvas.getPointer(o.e);
     line.set({
