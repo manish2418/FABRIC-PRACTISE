@@ -6,8 +6,48 @@
     font-family:sans-serif;
 }
 
+
+
+#toolbar{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgb(8, 1, 19);
+    color:white;
+    width:100%;
+    height:50px;
+}
+
+.button{
+    float:left;
+    margin-left:20px;
+    padding:5px;
+    height:30px;
+    margin-top:10px;
+    color:white;
+}
+
 #adding-line-button{
-     position:absolute;
-     top:0;
-     left:0;
+ 
+ 
+    background-color: rgb(130, 20, 20);
+   
+}
+
+#adding-line-button:hover{
+    background-color: rgb(247, 102, 102);
+    cursor:pointer;
+
+}
+#deactivate-adding-shape-btn{
+ 
+ 
+    background-color: rgb(19, 50, 224);
+   
+}
+
+#deactivate-adding-shape-btn:hover{
+    background-color: rgb(106, 158, 247);
+    cursor:pointer;
+
 }
