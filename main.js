@@ -10,6 +10,7 @@ function activateAddingLine() {
   canvas.on("mouse:down", startAddingLine);
   canvas.on("mouse:move", startDrawingLine);
   canvas.on("mouse:up", stopDrawingLine);
+  canvas.selection = false;
 }
 
 let line;
